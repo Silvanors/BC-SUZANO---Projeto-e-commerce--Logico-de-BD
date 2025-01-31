@@ -1,10 +1,10 @@
 
-#  Refinando um Projeto Conceitual de Banco de Dados: E-COMMERCE
+#  Transformando um Projeto Conceitual em Projeto Lógico de Banco de Dados: E-COMMERCE-Refinado 
 
 
 ## 📑 Objetivo:
 
-Refine o modelo apresentado [E-commerce](E-commerce.png) acrescentando os seguintes pontos:<br/>
+Refine o modelo apresentado [E-commerce-refinado](Esquema conceitual e-commerce-refinado.png) acrescentando os seguintes pontos:<br/>
 <br/>
 * Cliente PJ e PF – Uma conta pode ser PJ ou PF, mas não pode ter as duas informações;
 * Pagamento – Pode ter cadastrado mais de uma forma de pagamento;
