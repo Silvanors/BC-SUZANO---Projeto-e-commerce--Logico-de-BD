@@ -54,7 +54,7 @@ order by pj.nome_fantasia;
 	
 #Relação de produtos fornecedores e estoques;
     select p.idProduto as codigo_do_produto,
-						p.Produto_nome as Produto, 
+			p.Produto_nome as Produto, 
                         f.Pessoa_idPessoaJuridica as codigo_pj, 
                         pj.nome_fantasia as Nome_fornecedor
 	from estoqueProduto ep
@@ -66,7 +66,7 @@ order by pj.nome_fantasia;
 
 #Relação de nomes dos fornecedores e nomes dos produtos;
 select p.idProduto as codigo_do_produto,
-						p.Produto_nome as Produto, 
+			p.Produto_nome as Produto, 
                         f.Pessoa_idPessoaJuridica as codigo_pj, 
                         pj.nome_fantasia as Nome_fornecedor
 	from estoqueProduto ep
